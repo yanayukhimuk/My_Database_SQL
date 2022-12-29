@@ -62,6 +62,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="PublishLocations" />
+    <Folder Include="dbo\StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Person.sql" />
@@ -69,7 +70,7 @@
     <Build Include="dbo\Tables\Company.sql" />
     <Build Include="dbo\Tables\Employee.sql" />
     <Build Include="dbo\Views\EmployeeInfo.sql" />
-    <Build Include="dbo\sp_AddNewPerson.sql" />
+    <Build Include="dbo\StoredProcedures\sp_AddNewPerson.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PublishLocations\MyDemoDB.xml" />
