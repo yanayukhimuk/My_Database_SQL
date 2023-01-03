@@ -13,3 +13,12 @@
 
 
 
+
+
+
+GO
+CREATE TRIGGER dbo.NewCompanyAdressMessage 
+ON dbo.Employee
+AFTER INSERT
+AS
+PRINT 'A new employee has been inserted.'

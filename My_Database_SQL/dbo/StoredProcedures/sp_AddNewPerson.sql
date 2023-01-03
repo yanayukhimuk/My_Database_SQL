@@ -1,10 +1,10 @@
 ﻿CREATE PROCEDURE [dbo].[sp_AddNewPerson]
 	@EmployeeName nvarchar NULL,
-    @FirstName nvarchar (50) NOT NULL,
-    @LastName nvarchar (50) NOT NULL,
-    @CompanyName nvarchar (20) NOT NULL,
+    @FirstName nvarchar (50) NULL,
+    @LastName nvarchar (50) NULL,
+    @CompanyName nvarchar (20) NULL,
     @Position nvarchar (100) NULL, 
-    @Street nvarchar (50) NOT NULL, 
+    @Street nvarchar (50) NULL, 
     @City nvarchar (50) NULL,
     @State nvarchar (50) NULL, 
     @ZipCode nvarchar (50) NULL
